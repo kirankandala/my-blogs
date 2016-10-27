@@ -1,7 +1,7 @@
 ## How to perform Java/JVM Thread Dump Analysis
 
 
-Use "top" command using. http://mox.fmr.com/mox/#/ . If its a java application process that is using CPU and there is no work being done by the application, its a possibility that there is thread leak in the application/server.
+Use "top" command using. If its a java application process that is using CPU and there is no work being done by the application, its a possibility that there is thread leak in the application/server.
 
 
 Use the following steps to identify the threads potentially causing the high CPU usage and use the information of each thread to perform thread dump analysis.
